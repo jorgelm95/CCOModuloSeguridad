@@ -1,0 +1,250 @@
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\obj\Debug\ModuleSecurity.csprojResolveAssemblyReference.cache
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ApplicationInsights.config
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\csc.exe
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\csc.exe.config
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\csc.rsp
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\csi.exe
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\csi.rsp
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\System.AppContext.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\System.Collections.Immutable.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\System.IO.FileSystem.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\vbc.exe
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\vbc.exe.config
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\vbc.rsp
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\VBCSCompiler.exe
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\roslyn\VBCSCompiler.exe.config
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ModuleSecurity.dll.config
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ModuleSecurity.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ModuleSecurity.pdb
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Antlr3.Runtime.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\EntityFramework.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\EntityFramework.SqlServer.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.Web.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.WindowsServer.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.ApplicationInsights.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.Data.Edm.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.Data.OData.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.Web.Infrastructure.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Newtonsoft.Json.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Net.Http.Formatting.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Spatial.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Cors.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Helpers.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.Cors.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.OData.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.WebHost.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Mvc.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Optimization.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Razor.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.WebPages.Deployment.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.WebPages.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.WebPages.Razor.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\WebGrease.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\EntityFramework.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\EntityFramework.SqlServer.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.Data.Edm.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.Data.OData.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Spatial.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.Cors.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.OData.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Newtonsoft.Json.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Net.Http.Formatting.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Helpers.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Http.WebHost.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Mvc.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Optimization.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.Razor.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.WebPages.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.WebPages.Deployment.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\System.Web.WebPages.Razor.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Antlr3.Runtime.pdb
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.ApplicationInsights.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.WindowsServer.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\Microsoft.AI.Web.xml
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\de\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\fr\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\it\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ja\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ko\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\ru\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.Helpers.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.Http.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.Mvc.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.Optimization.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.Razor.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.WebPages.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\obj\Debug\ModuleSecurity.dll
+c:\users\yordi\documents\visual studio 2017\Projects\ModuleSecurity\ModuleSecurity\obj\Debug\ModuleSecurity.pdb
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ApplicationInsights.config
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\csc.exe
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\csc.exe.config
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\csc.rsp
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\csi.exe
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\csi.rsp
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\System.AppContext.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\vbc.exe
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\vbc.exe.config
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\vbc.rsp
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\VBCSCompiler.exe
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ModuleSecurity.dll.config
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ModuleSecurity.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ModuleSecurity.pdb
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Antlr3.Runtime.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\EntityFramework.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\EntityFramework.SqlServer.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.Web.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.ApplicationInsights.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.Data.Edm.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.Data.OData.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Newtonsoft.Json.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Net.Http.Formatting.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Spatial.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Cors.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Helpers.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.Cors.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.OData.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.WebHost.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Mvc.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Optimization.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Razor.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.WebPages.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.WebPages.Razor.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\WebGrease.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\EntityFramework.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\EntityFramework.SqlServer.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.Data.Edm.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.Data.OData.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Spatial.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.Cors.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.OData.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Newtonsoft.Json.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Net.Http.Formatting.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Helpers.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Http.WebHost.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Mvc.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Optimization.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.Razor.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.WebPages.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\System.Web.WebPages.Razor.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Antlr3.Runtime.pdb
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.ApplicationInsights.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\Microsoft.AI.Web.xml
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\de\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\fr\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\it\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ja\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ko\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\ru\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.Helpers.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.Http.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.Mvc.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.Optimization.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.Razor.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.WebPages.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\obj\Debug\ModuleSecurity.csprojResolveAssemblyReference.cache
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\obj\Debug\ModuleSecurity.dll
+C:\Users\yordi\Documents\Proyectos-trabajo\Conocimiento Corporativo-Módulo de seguridad\Desarrollo\app-test\backend\ModuleSecurity\obj\Debug\ModuleSecurity.pdb

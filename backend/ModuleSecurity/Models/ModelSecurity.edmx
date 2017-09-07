@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="securityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="action">
+          <Key>
+            <PropertyRef Name="id_action" />
+          </Key>
+          <Property Name="id_action" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="action" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="permission">
+          <Key>
+            <PropertyRef Name="id_permission" />
+          </Key>
+          <Property Name="id_permission" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_user" Type="bigint" Nullable="false" />
+          <Property Name="id_role" Type="int" Nullable="false" />
+          <Property Name="id_resource" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="resource">
+          <Key>
+            <PropertyRef Name="id_resource" />
+          </Key>
+          <Property Name="id_resource" Type="bigint" Nullable="false" />
+          <Property Name="resource" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="parent" Type="bigint" Nullable="false" />
+          <Property Name="hereditary" Type="bit" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="id_role" />
+          </Key>
+          <Property Name="id_role" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="role" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="role_by_action">
+          <Key>
+            <PropertyRef Name="id_role_by_action" />
+          </Key>
+          <Property Name="id_role_by_action" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_role" Type="int" Nullable="false" />
+          <Property Name="id_action" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id_user" />
+          </Key>
+          <Property Name="id_user" Type="bigint" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="phone" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_permission_resource">
+          <End Role="resource" Type="Self.resource" Multiplicity="1" />
+          <End Role="permission" Type="Self.permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="resource">
+              <PropertyRef Name="id_resource" />
+            </Principal>
+            <Dependent Role="permission">
+              <PropertyRef Name="id_resource" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_permission_role">
+          <End Role="role" Type="Self.role" Multiplicity="1" />
+          <End Role="permission" Type="Self.permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="role">
+              <PropertyRef Name="id_role" />
+            </Principal>
+            <Dependent Role="permission">
+              <PropertyRef Name="id_role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_permission_user">
+          <End Role="user" Type="Self.user" Multiplicity="1" />
+          <End Role="permission" Type="Self.permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="id_user" />
+            </Principal>
+            <Dependent Role="permission">
+              <PropertyRef Name="id_user" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_resource_resource">
+          <End Role="resource" Type="Self.resource" Multiplicity="1" />
+          <End Role="resource1" Type="Self.resource" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="resource">
+              <PropertyRef Name="id_resource" />
+            </Principal>
+            <Dependent Role="resource1">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_role_by_action_action">
+          <End Role="action" Type="Self.action" Multiplicity="1" />
+          <End Role="role_by_action" Type="Self.role_by_action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="action">
+              <PropertyRef Name="id_action" />
+            </Principal>
+            <Dependent Role="role_by_action">
+              <PropertyRef Name="id_action" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_role_by_action_role">
+          <End Role="role" Type="Self.role" Multiplicity="1" />
+          <End Role="role_by_action" Type="Self.role_by_action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="role">
+              <PropertyRef Name="id_role" />
+            </Principal>
+            <Dependent Role="role_by_action">
+              <PropertyRef Name="id_role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="securityModelStoreContainer">
+          <EntitySet Name="action" EntityType="Self.action" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="permission" EntityType="Self.permission" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="resource" EntityType="Self.resource" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="role" EntityType="Self.role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="role_by_action" EntityType="Self.role_by_action" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_permission_resource" Association="Self.FK_permission_resource">
+            <End Role="resource" EntitySet="resource" />
+            <End Role="permission" EntitySet="permission" />
+          </AssociationSet>
+          <AssociationSet Name="FK_permission_role" Association="Self.FK_permission_role">
+            <End Role="role" EntitySet="role" />
+            <End Role="permission" EntitySet="permission" />
+          </AssociationSet>
+          <AssociationSet Name="FK_permission_user" Association="Self.FK_permission_user">
+            <End Role="user" EntitySet="user" />
+            <End Role="permission" EntitySet="permission" />
+          </AssociationSet>
+          <AssociationSet Name="FK_resource_resource" Association="Self.FK_resource_resource">
+            <End Role="resource" EntitySet="resource" />
+            <End Role="resource1" EntitySet="resource" />
+          </AssociationSet>
+          <AssociationSet Name="FK_role_by_action_action" Association="Self.FK_role_by_action_action">
+            <End Role="action" EntitySet="action" />
+            <End Role="role_by_action" EntitySet="role_by_action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_role_by_action_role" Association="Self.FK_role_by_action_role">
+            <End Role="role" EntitySet="role" />
+            <End Role="role_by_action" EntitySet="role_by_action" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="securityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="action">
+          <Key>
+            <PropertyRef Name="id_action" />
+          </Key>
+          <Property Name="id_action" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="action1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="role_by_action" Relationship="Self.FK_role_by_action_action" FromRole="action" ToRole="role_by_action" />
+        </EntityType>
+        <EntityType Name="permission">
+          <Key>
+            <PropertyRef Name="id_permission" />
+          </Key>
+          <Property Name="id_permission" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_user" Type="Int64" Nullable="false" />
+          <Property Name="id_role" Type="Int32" Nullable="false" />
+          <Property Name="id_resource" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="resource" Relationship="Self.FK_permission_resource" FromRole="permission" ToRole="resource" />
+          <NavigationProperty Name="role" Relationship="Self.FK_permission_role" FromRole="permission" ToRole="role" />
+          <NavigationProperty Name="user" Relationship="Self.FK_permission_user" FromRole="permission" ToRole="user" />
+        </EntityType>
+        <EntityType Name="resource">
+          <Key>
+            <PropertyRef Name="id_resource" />
+          </Key>
+          <Property Name="id_resource" Type="Int64" Nullable="false" />
+          <Property Name="resource1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="parent" Type="Int64" Nullable="false" />
+          <Property Name="hereditary" Type="Boolean" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="permission" Relationship="Self.FK_permission_resource" FromRole="resource" ToRole="permission" />
+          <NavigationProperty Name="resource11" Relationship="Self.FK_resource_resource" FromRole="resource" ToRole="resource1" />
+          <NavigationProperty Name="resource2" Relationship="Self.FK_resource_resource" FromRole="resource1" ToRole="resource" />
+        </EntityType>
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="id_role" />
+          </Key>
+          <Property Name="id_role" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="role1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="permission" Relationship="Self.FK_permission_role" FromRole="role" ToRole="permission" />
+          <NavigationProperty Name="role_by_action" Relationship="Self.FK_role_by_action_role" FromRole="role" ToRole="role_by_action" />
+        </EntityType>
+        <EntityType Name="role_by_action">
+          <Key>
+            <PropertyRef Name="id_role_by_action" />
+          </Key>
+          <Property Name="id_role_by_action" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_role" Type="Int32" Nullable="false" />
+          <Property Name="id_action" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="action" Relationship="Self.FK_role_by_action_action" FromRole="role_by_action" ToRole="action" />
+          <NavigationProperty Name="role" Relationship="Self.FK_role_by_action_role" FromRole="role_by_action" ToRole="role" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id_user" />
+          </Key>
+          <Property Name="id_user" Type="Int64" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="permission" Relationship="Self.FK_permission_user" FromRole="user" ToRole="permission" />
+        </EntityType>
+        <Association Name="FK_role_by_action_action">
+          <End Role="action" Type="Self.action" Multiplicity="1" />
+          <End Role="role_by_action" Type="Self.role_by_action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="action">
+              <PropertyRef Name="id_action" />
+            </Principal>
+            <Dependent Role="role_by_action">
+              <PropertyRef Name="id_action" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_permission_resource">
+          <End Role="resource" Type="Self.resource" Multiplicity="1" />
+          <End Role="permission" Type="Self.permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="resource">
+              <PropertyRef Name="id_resource" />
+            </Principal>
+            <Dependent Role="permission">
+              <PropertyRef Name="id_resource" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_permission_role">
+          <End Role="role" Type="Self.role" Multiplicity="1" />
+          <End Role="permission" Type="Self.permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="role">
+              <PropertyRef Name="id_role" />
+            </Principal>
+            <Dependent Role="permission">
+              <PropertyRef Name="id_role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_permission_user">
+          <End Role="user" Type="Self.user" Multiplicity="1" />
+          <End Role="permission" Type="Self.permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="id_user" />
+            </Principal>
+            <Dependent Role="permission">
+              <PropertyRef Name="id_user" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_resource_resource">
+          <End Role="resource" Type="Self.resource" Multiplicity="1" />
+          <End Role="resource1" Type="Self.resource" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="resource">
+              <PropertyRef Name="id_resource" />
+            </Principal>
+            <Dependent Role="resource1">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_role_by_action_role">
+          <End Role="role" Type="Self.role" Multiplicity="1" />
+          <End Role="role_by_action" Type="Self.role_by_action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="role">
+              <PropertyRef Name="id_role" />
+            </Principal>
+            <Dependent Role="role_by_action">
+              <PropertyRef Name="id_role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="securityEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="action" EntityType="Self.action" />
+          <EntitySet Name="permission" EntityType="Self.permission" />
+          <EntitySet Name="resource" EntityType="Self.resource" />
+          <EntitySet Name="role" EntityType="Self.role" />
+          <EntitySet Name="role_by_action" EntityType="Self.role_by_action" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="user" EntityType="Self.user" />
+          <AssociationSet Name="FK_role_by_action_action" Association="Self.FK_role_by_action_action">
+            <End Role="action" EntitySet="action" />
+            <End Role="role_by_action" EntitySet="role_by_action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_permission_resource" Association="Self.FK_permission_resource">
+            <End Role="resource" EntitySet="resource" />
+            <End Role="permission" EntitySet="permission" />
+          </AssociationSet>
+          <AssociationSet Name="FK_permission_role" Association="Self.FK_permission_role">
+            <End Role="role" EntitySet="role" />
+            <End Role="permission" EntitySet="permission" />
+          </AssociationSet>
+          <AssociationSet Name="FK_permission_user" Association="Self.FK_permission_user">
+            <End Role="user" EntitySet="user" />
+            <End Role="permission" EntitySet="permission" />
+          </AssociationSet>
+          <AssociationSet Name="FK_resource_resource" Association="Self.FK_resource_resource">
+            <End Role="resource" EntitySet="resource" />
+            <End Role="resource1" EntitySet="resource" />
+          </AssociationSet>
+          <AssociationSet Name="FK_role_by_action_role" Association="Self.FK_role_by_action_role">
+            <End Role="role" EntitySet="role" />
+            <End Role="role_by_action" EntitySet="role_by_action" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="securityModelStoreContainer" CdmEntityContainer="securityEntities">
+          <EntitySetMapping Name="action">
+            <EntityTypeMapping TypeName="securityModel.action">
+              <MappingFragment StoreEntitySet="action">
+                <ScalarProperty Name="id_action" ColumnName="id_action" />
+                <ScalarProperty Name="action1" ColumnName="action" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="permission">
+            <EntityTypeMapping TypeName="securityModel.permission">
+              <MappingFragment StoreEntitySet="permission">
+                <ScalarProperty Name="id_permission" ColumnName="id_permission" />
+                <ScalarProperty Name="id_user" ColumnName="id_user" />
+                <ScalarProperty Name="id_role" ColumnName="id_role" />
+                <ScalarProperty Name="id_resource" ColumnName="id_resource" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="resource">
+            <EntityTypeMapping TypeName="securityModel.resource">
+              <MappingFragment StoreEntitySet="resource">
+                <ScalarProperty Name="id_resource" ColumnName="id_resource" />
+                <ScalarProperty Name="resource1" ColumnName="resource" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="hereditary" ColumnName="hereditary" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="role">
+            <EntityTypeMapping TypeName="securityModel.role">
+              <MappingFragment StoreEntitySet="role">
+                <ScalarProperty Name="id_role" ColumnName="id_role" />
+                <ScalarProperty Name="role1" ColumnName="role" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="role_by_action">
+            <EntityTypeMapping TypeName="securityModel.role_by_action">
+              <MappingFragment StoreEntitySet="role_by_action">
+                <ScalarProperty Name="id_role_by_action" ColumnName="id_role_by_action" />
+                <ScalarProperty Name="id_role" ColumnName="id_role" />
+                <ScalarProperty Name="id_action" ColumnName="id_action" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="securityModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="securityModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="id_user" ColumnName="id_user" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="email" ColumnName="email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

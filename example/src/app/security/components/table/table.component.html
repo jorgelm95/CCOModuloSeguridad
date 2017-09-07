@@ -1,0 +1,13 @@
+<table class="table table-striped">
+    <caption *ngIf="caption">{{ caption }}</caption>
+    <thead>
+        <tr>
+            <th *ngFor="let key of keys">{{ key }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let record of records">
+            <td *ngFor="let key of keys">{{ record[key] }}</td>
+        </tr>
+    </tbody>
+</table>

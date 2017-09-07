@@ -1,0 +1,20 @@
+<div class="container">
+  <h3>Assign Actions to Role</h3>
+  <hr>
+  <div class="row">
+    <div class="form-group col-xs-12 col-md-4">
+      <select class="form-control" [(ngModel)]="role">
+        <option disabled selected [ngValue]="role">Select Role</option>
+        <option *ngFor="let role of roles" [ngValue]="role">{{role.role}}</option>
+      </select>
+    </div>
+    <div class="form-group col-xs-12 col-md-4">
+      <select class="form-control" [(ngModel)]="action">
+        <option disabled selected [ngValue]="action">Select Actions</option>
+        <option *ngFor="let action of actions" [ngValue]="action">{{action.action}}</option>
+      </select>
+    </div>
+  </div>
+  <button class="btn btn-success" (click)="createRoleByAction($evt)">Create</button>
+  <a class="btn btn-warning" routerLink="/authorization/list-roles-by-actions">View List</a>
+</div>

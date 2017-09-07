@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="securityModelStoreContainer" CdmEntityContainer="securityEntities">
+    <EntitySetMapping Name="action">
+      <EntityTypeMapping TypeName="securityModel.action">
+        <MappingFragment StoreEntitySet="action">
+          <ScalarProperty Name="id_action" ColumnName="id_action" />
+          <ScalarProperty Name="action1" ColumnName="action" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="permission">
+      <EntityTypeMapping TypeName="securityModel.permission">
+        <MappingFragment StoreEntitySet="permission">
+          <ScalarProperty Name="id_permission" ColumnName="id_permission" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+          <ScalarProperty Name="id_resource" ColumnName="id_resource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="resource">
+      <EntityTypeMapping TypeName="securityModel.resource">
+        <MappingFragment StoreEntitySet="resource">
+          <ScalarProperty Name="id_resource" ColumnName="id_resource" />
+          <ScalarProperty Name="resource1" ColumnName="resource" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="hereditary" ColumnName="hereditary" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="role">
+      <EntityTypeMapping TypeName="securityModel.role">
+        <MappingFragment StoreEntitySet="role">
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+          <ScalarProperty Name="role1" ColumnName="role" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="role_by_action">
+      <EntityTypeMapping TypeName="securityModel.role_by_action">
+        <MappingFragment StoreEntitySet="role_by_action">
+          <ScalarProperty Name="id_role_by_action" ColumnName="id_role_by_action" />
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+          <ScalarProperty Name="id_action" ColumnName="id_action" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="securityModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="securityModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,29 @@
+<div class="container">
+  <h3>Create Resource</h3>
+  <hr>
+  <div class="row">
+    <div class="form-group col-xs-12 col-md-8">
+      <input type="text" class="form-control" placeholder="Name Resource" [(ngModel)]="resource.resource1">
+    </div>
+    <div class="form-group col-xs-8 col-md-2">
+      <select class="form-control" [(ngModel)]="resource.parent">
+         <option disabled selected [ngValue]="resource.parent">Select Parent</option> 
+        <option *ngFor="let resource of resources" [ngValue]="resource.id">{{resource.resource}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <div class="form-group col-xs-4 col-md-2">
+        <div class="checkbox">
+          <label>
+          <input type="checkbox" [disabled]="!resource.parent" [checked]="resource.hereditary" (change)="resource.hereditary = !resource.hereditary"> Hereditary
+        </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group col-xs-12 col-md-12">
+      <textarea class="form-control" placeholder="Description" [(ngModel)]="resource.description"></textarea>
+    </div>
+  </div>
+  <button class="btn btn-success" (click)="createResource()">Create</button>
+  <a class="btn btn-warning" routerLink="/authorization/list-resources">View List</a>
+</div>
